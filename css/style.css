@@ -1,0 +1,84 @@
+/* RESET AND UTILITY */
+*{
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.fl{
+    float: left;
+}
+.fr{
+  float: right;
+}
+.ltlbar{
+  position: fixed;
+  bottom: 0vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.8);
+  z-index: 1;
+  color:#D1D1D1;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+}
+/* RESET AND UTILITY */
+
+/* MENU AND LOGO */
+.headmenu{
+  height: 90px;
+  width: 100%;
+  background-color: #181818;
+}
+.headmenu li{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #D1D1D1;
+  line-height:30px;
+}
+.headmenu .fr li{
+  padding:20px 15px;
+}
+.headmenu .fl li{
+  padding:15px 15px;
+}
+.underline:hover{
+border-bottom: 1px solid #D1D1D1;
+}
+.fl img:first-child{
+  height: 60px;
+  vertical-align: middle;
+}
+.fr img{
+  height: 45px;
+  vertical-align: middle;
+}
+/* MENU AND LOGO */
+
+/* MAIN PART */
+main div{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main div:first-child{
+  height: 100vh;
+}
+main div:nth-child(3),main div:nth-child(4){
+height: 700px;
+}
+.image1{
+    background-image: url("../img/immagine1.jpg");
+}
+.image2{
+    background-image: url("../img/immagine2.jpg");
+}
+.image3{
+    background-image: url("../img/immagine3.jpg");
+}
+.image4{
+    background-image: url("../img/immagine4.jpg");
+}
+/* MAIN PART */
+/* =^-^= */
